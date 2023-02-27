@@ -1,9 +1,7 @@
 
 # #### Test file: points :  point ; waterways : Polyline ; natural : Polygon
-
+import struct
 def parser(_input,_output):
-    import struct
-
     shapes=['Null','Point','','Polyline','','Polygon','','',
             'MultiPoint','','','','','','','','','','','','',
             '','','','','','','','','','','MultiPatch']
